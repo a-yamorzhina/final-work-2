@@ -2,19 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a13fbeb7-fe13-4cb0-abd9-27020ab91d82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/basket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/header-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/_blocks.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/_buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/_mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/_variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/Raleway-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/raleway/raleway-semi-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/roboto/roboto-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/arrow-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/journal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/legs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nature-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nature-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/phone_in_hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/poster-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/widget-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/widget-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/widget-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/widget-4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/_blocks.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/_buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/_mixins.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/style.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +100,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Less" />
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/final-work/index.html" useBuiltInWebServerPort="true">
@@ -62,7 +122,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583398248201</updated>
-      <workItem from="1583398249637" duration="21607000" />
+      <workItem from="1583398249637" duration="25240000" />
+      <workItem from="1583934582269" duration="33914000" />
     </task>
     <servers />
   </component>
@@ -81,13 +142,85 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="413" y="304" width="852" height="656" key="EditFileWatcherDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583398310970" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1583423619751">
+    <state width="1636" height="344" key="GridCell.Tab.0.bottom" timestamp="1583934560995">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1583423619751" />
+    <state width="1636" height="344" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560995" />
+    <state width="1636" height="344" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1583849284061" />
+    <state width="1636" height="344" key="GridCell.Tab.0.center" timestamp="1583934560994">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560994" />
+    <state width="1636" height="344" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1583849284036" />
+    <state width="1636" height="344" key="GridCell.Tab.0.left" timestamp="1583934560993">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560993" />
+    <state width="1636" height="344" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1583849283981" />
+    <state width="1636" height="344" key="GridCell.Tab.0.right" timestamp="1583934560994">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560994" />
+    <state width="1636" height="344" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1583849284059" />
+    <state width="1636" height="344" key="GridCell.Tab.1.bottom" timestamp="1583934560997">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560997" />
+    <state width="1636" height="344" key="GridCell.Tab.1.center" timestamp="1583934560996">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560996" />
+    <state width="1636" height="344" key="GridCell.Tab.1.left" timestamp="1583934560995">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560995" />
+    <state width="1636" height="344" key="GridCell.Tab.1.right" timestamp="1583934560996">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560996" />
+    <state width="1636" height="344" key="GridCell.Tab.2.bottom" timestamp="1583934560998">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560998" />
+    <state width="1636" height="344" key="GridCell.Tab.2.center" timestamp="1583934560998">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560998" />
+    <state width="1636" height="344" key="GridCell.Tab.2.left" timestamp="1583934560997">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560997" />
+    <state width="1636" height="344" key="GridCell.Tab.2.right" timestamp="1583934560998">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560998" />
+    <state width="1636" height="344" key="GridCell.Tab.3.bottom" timestamp="1583934561000">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583934561000" />
+    <state width="1636" height="344" key="GridCell.Tab.3.center" timestamp="1583934560999">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560999" />
+    <state width="1636" height="344" key="GridCell.Tab.3.left" timestamp="1583934560999">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560999" />
+    <state width="1636" height="344" key="GridCell.Tab.3.right" timestamp="1583934560999">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="344" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583934560999" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1584017320657">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1584017320657" />
     <state x="622" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583426828235">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="622" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1583426828235" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1584021651657">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584021651657" />
   </component>
 </project>
