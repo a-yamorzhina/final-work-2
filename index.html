@@ -35,16 +35,24 @@
             </svg>
             <span class="logo-txt">Waxom</span>
         </a>
-        <nav class="nav">
-            <a class="menu-nav" href="#">Home</a>
-            <a class="menu-nav" href="#">About</a>
-            <a class="menu-nav" href="#">Portfolio</a>
-            <a class="menu-nav" href="#">Features</a>
-            <a class="menu-nav" href="#">Blog</a>
-            <a class="menu-nav" href="#">Pricing</a>
-            <a class="menu-nav" href="#">Shortcodes</a>
-            <a class="menu-nav" href="#">Contact</a>
-        </nav>
+        <div class="menu-wrapper">
+            <input type="checkbox" id="check-menu">
+            <label for="check-menu" class="check-menu"></label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="nav">
+                <a class="menu-nav" href="#">Home</a>
+                <a class="menu-nav" href="#">About</a>
+                <a class="menu-nav" href="#">Portfolio</a>
+                <a class="menu-nav" href="#">Features</a>
+                <a class="menu-nav" href="#">Blog</a>
+                <a class="menu-nav" href="#">Pricing</a>
+                <a class="menu-nav" href="#">Shortcodes</a>
+                <a class="menu-nav" href="#">Contact</a>
+            </nav>
+        </div>
         <button class="basket">
             <svg class="basket-svg" xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24">
 
@@ -62,24 +70,25 @@
 
             </svg>
         </button>
-        <label for="search">
-            <svg class="search-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <form action="#" class="header-search">
+            <label for="search">
+                <svg class="search-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 
-                <path d="M23.761 23.763a.785.785 0 0 1-1.098 0l-6.217-6.12a10.155 10.155 0 0 1-6.353 2.22C4.52
+                    <path d="M23.761 23.763a.785.785 0 0 1-1.098 0l-6.217-6.12a10.155 10.155 0 0 1-6.353 2.22C4.52
                   19.862.001 15.415.001 9.928 0 4.443 4.519-.002 10.093-.002c5.575 0 10.093 4.445 10.094 9.93 0
                   2.565-.997 4.897-2.618 6.658l6.193 6.095a.758.758 0 0 1 0 1.082zM18.633
                   9.93c0-4.641-3.823-8.404-8.54-8.404-4.716 0-8.54 3.763-8.54 8.404 0 4.643 3.824 8.405 8.54 8.405
                   4.717 0 8.54-3.762 8.54-8.405z"/>
-                <path d="M23.761 23.763a.785.785 0 0 1-1.098
+                    <path d="M23.761 23.763a.785.785 0 0 1-1.098
                   0l-6.217-6.12a10.155 10.155 0 0 1-6.353 2.22C4.52 19.862.001 15.415.001 9.928 0 4.443 4.519-.002
                   10.093-.002c5.575 0 10.093 4.445 10.094 9.93 0 2.565-.997 4.897-2.618 6.658l6.193 6.095a.758.758
                   0 0 1 0 1.082zM18.633 9.93c0-4.641-3.823-8.404-8.54-8.404-4.716 0-8.54 3.763-8.54 8.404 0 4.643
                   3.824 8.405 8.54 8.405 4.717 0 8.54-3.762 8.54-8.405z"/>
 
-            </svg>
-        </label>
-        <input id="search" type="hidden">
-
+                </svg>
+            </label>
+            <input id="search" type="search">
+        </form>
     </section>
     <section class="header-content">
         <button class="arrow"></button>
@@ -162,8 +171,7 @@
                      3.252-.355 4.234.406.984 1.8 2.232 3.24 2.742 1.44.508 2.606 2.237 2.606 3.857s-1.166
                      3.349-2.605 3.86zM30.128 21.86c0-4.419-3.574-7.994-7.984-7.994a7.988 7.988 0 0 0-7.994 7.994
                      7.984 7.984 0 0 0 7.994 7.983 7.981 7.981 0 0 0 7.984-7.983z"/>
-                <path d="M41.322 25.71c-1.44.513-2.837
-                     1.762-3.243 2.743-.406.98-.298 2.85.357 4.23.656 1.379.259 3.427-.886 4.572-1.146 1.147-3.194
+                <path d="M41.322 25.71c-1.44.513-2.837 1.762-3.243 2.743-.406.98-.298 2.85.357 4.23.656 1.379.259 3.427-.886 4.572-1.146 1.147-3.194
                      1.544-4.573.887-1.38-.656-3.252-.764-4.233-.356-.98.41-2.227 1.808-2.739 3.246-.512 1.436-2.241
                      2.601-3.861 2.601s-3.35-1.165-3.862-2.6c-.512-1.439-1.759-2.837-2.74-3.244-.982-.408-2.852-.303-4.
                      232.353-1.38.657-3.427.26-4.573-.887-1.145-1.145-1.542-3.193-.886-4.572s.763-3.249.355-4.23c-.408-.
@@ -389,7 +397,7 @@
                     </svg>
                 </button>
             </div>
-        <div class="latest-projects-article">
+            <div class="latest-projects-article">
                 <img class="latest-projects-article-img" width="370" height="237" src="img/nature-2.png"
                      alt="back-img">
                 <span class="latest-projects-article-title">Claritas Etiam Processus</span>
@@ -539,7 +547,7 @@
     </section>
     <!--   Section 6 Video Presentation-->
     <section class="video-presentation">
-        <video src="#" class="video-presentation-vid" poster="img/poster-video.png" height="705"></video>
+        <video class="video-presentation-vid" poster="img/poster-video.png" height="705"></video>
         <div class="container">
             <div class="video-presentation-content">
                 <button class="play">
@@ -594,6 +602,35 @@
                 </ul>
             </div>
         </div>
+    </section>
+    <section class="mobile-devices-media">
+
+        <div class="mobile-devices-content">
+
+            <div class="mobile-device-content-title">
+                <h3 class="h3 mobile-title">Excellent for Mobile Devices.</h3>
+                <p class="basic-font-p mobile-p">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                    suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius
+                    quod ii
+                    legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in
+                    futurum..</p>
+            </div>
+
+            <div class="mobile-device-content-img">
+                <img class="phone-in-hand" src="img/phone_in_hand.png" alt="phone-in-hand" width="423" height="616">
+                <ul class="mobile-content-list">
+                    <li class="basic-font-p mobile-li">Nam liber tempor cum soluta nobis eleifend option;</li>
+                    <li class="basic-font-p mobile-li">Option congue nihil imperdiet doming id quod mazim placerat
+                        facer;
+                    </li>
+                    <li class="basic-font-p mobile-li">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                    <li class="basic-font-p mobile-li">Investigationes demonstraverunt lectores</li>
+                </ul>
+            </div>
+
+        </div>
+
     </section>
     <!--   Section 8 Counter-->
     <section class="counter">
