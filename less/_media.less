@@ -9,6 +9,8 @@
   .header {
     width: @media-width;
     min-height: auto;
+    //position: fixed;
+    //z-index: 10;
   }
 
   .header-up {
@@ -188,6 +190,10 @@
     left: 0%;
   }
 
+  .play {
+    width: 90px;
+  }
+
   /*-----------------Section 7-----------------*/
   .mobile-devices {
     display: none;
@@ -206,8 +212,12 @@
     text-align: center;
   }
 
+  .mobile-title {
+    margin-top: 80px;
+  }
+
   .mobile-p {
-    width: 80%;
+    width: 90-0%;
     margin: 0;
     padding-left: 20px;
     font-size: 14px;
@@ -238,7 +248,7 @@
   margin-left: -30px;
 }
   .mobile-li {
-    width: 80%;
+    width: 86%;
     font-size: 12px;
     &:before{
       left: -29px;
@@ -267,6 +277,7 @@
   /*-----------------Section 10-----------------*/
   .logos {
     min-height: auto;
+    padding: 0 20px 0 20px;
   }
 
   .logotype {
@@ -278,12 +289,16 @@
   }
 
   //------------------Footer------------------
+
   //------------------Footer-1------------------
   .footer-1 {
     display: none;
   }
 
   //------------------Footer-2------------------
+  .footer-2 {
+    padding: 45px 20px 0 20px;
+  }
   .copyright {
     margin: 0 auto;
     float: none;
@@ -292,9 +307,12 @@
 
   .copy:after {
     content: " ";
-    border-right: 1px solid #252525;
-    position: relative;
+    border: none;
     /* left: 23px; */
+  }
+
+  .copy:nth-child(4){
+    margin-right: 0;
   }
 
   .author {
