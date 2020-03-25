@@ -180,10 +180,12 @@
     height: 580px;
     object-fit: cover;
   }
-
+  .latest-projects-p {
+    width: 100%;
+  }
   .video-presentation-content {
     top: 20%;
-    left: 10%;
+    left: 0%;
   }
 
   /*-----------------Section 7-----------------*/
@@ -205,7 +207,7 @@
   }
 
   .mobile-p {
-    width: 440px;
+    width: 80%;
     margin: 0;
     padding-left: 20px;
     font-size: 14px;
@@ -220,8 +222,8 @@
   }
 
   .phone-in-hand {
-    width: 220px;
-    height: 323px;
+    width: 40%;
+    height: 40%;
     display: flex;
     align-self: flex-end;
   }
@@ -236,10 +238,11 @@
   margin-left: -30px;
 }
   .mobile-li {
-    width: 240px;
+    width: 80%;
     font-size: 12px;
     &:before{
       left: -29px;
+      top: 4px;
     }
   }
 
@@ -271,7 +274,7 @@
   }
 
   .logotype img {
-    width: 100px;
+    width: 80%;
   }
 
   //------------------Footer------------------
@@ -284,7 +287,14 @@
   .copyright {
     margin: 0 auto;
     float: none;
-    width: 440px;
+    width: @media-width;
+  }
+
+  .copy:after {
+    content: " ";
+    border-right: 1px solid #252525;
+    position: relative;
+    /* left: 23px; */
   }
 
   .author {
